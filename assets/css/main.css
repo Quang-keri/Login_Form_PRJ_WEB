@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  color: rgb(22, 24, 35);
+  direction: ltr;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #31313b;
+}
+
+#login_form {
+  display: block;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-stage,
+.password-stage {
+  display: block;
+  min-width: 300px;
+  display: grid;
+  grid-template-columns: 25px auto;
+  border: 2px solid #2d3039;
+  margin-bottom: 5px;
+}
+
+div #userID,
+div #password {
+  width: 100%;
+}
+
+#userID,
+#password {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: #464d55;
+}
+
+.submit-stage {
+  width: 100%;
+}
+
+.icon-user,
+.icon-password {
+  border: none;
+  padding: 0 5px;
+  background-color: #333c43;
+  text-align: center;
+}
+
+.icon-user i,
+.icon-password i {
+  color: #a4a7ae;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.submit-stage {
+  margin-top: 10px;
+}
+
+.signin {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  background-color: #de5188;
+  margin-bottom: 10px;
+}
+
+.notAMember {
+  text-align: center;
+  color: #a4a7ae;
+  font-size: 12px;
+}
+
+.notAMember a {
+  color: white;
+  font-size: 12px;
+}
